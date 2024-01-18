@@ -39,5 +39,17 @@ public class Main {
 //        constants
         final float PI = 3.14F;
         System.out.println(PI);
+
+        int result = 2 / 3;
+        int x = 1;
+        int y = ++x;
+        System.out.println(x);
+        System.out.println(y);
+
+//        implicit casting
+//        byte > short > int > long > float > double
+        short a = 1;
+        int b = a + 2;
+        System.out.println(b);
     }
 }
