@@ -5,7 +5,6 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        //        byte age = 30;
 //        long viewsCount = 3_123_456_789L;
 //        float price = 10.99F;
 //        Date now = new Date();
@@ -23,7 +22,6 @@ public class Main {
 
 //        String message = "Hello World!!";
 //        System.out.println(message.replace("!", "*"));
-//        System.out.println(message);
         String message = "c:\\windows\\...";
         System.out.println(message);
 
@@ -47,9 +45,9 @@ public class Main {
         System.out.println(y);
 
 //        implicit casting
-//        byte > short > int > long > float > double
-        short a = 1;
-        int b = a + 2;
+//        byte > short(2bytes) > int(4bytes) > long > float > double
+        double a = 1.1;
+        double b = a + 2;
         System.out.println(b);
     }
 }
