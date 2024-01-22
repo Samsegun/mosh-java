@@ -1,7 +1,9 @@
 package com.codewithmosh;
 
 import java.awt.*;
+import java.text.NumberFormat;
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -49,5 +51,21 @@ public class Main {
         double a = 1.1;
         double b = a + 2;
         System.out.println(b);
+
+        int rounded = (int) (Math.random() * 1000);
+        System.out.println(rounded);
+
+        NumberFormat currency = NumberFormat.getCurrencyInstance();
+        String currencyResult = currency.format(1234567.896);
+        System.out.println(currencyResult);
+
+        NumberFormat percentIns = NumberFormat.getPercentInstance();
+        String percentResult = percentIns.format(0.65);
+        System.out.println(percentResult);
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter age: ");
+        short age = scanner.nextShort();
+        System.out.println("You are " + age);
     }
 }
