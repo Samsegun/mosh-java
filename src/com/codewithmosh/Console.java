@@ -3,7 +3,7 @@ package com.codewithmosh;
 import java.util.Scanner;
 
 public class Console {
-    final private static Scanner scanner = new Scanner(System.in);
+     private final static Scanner scanner = new Scanner(System.in);
 
     public static double readNumber(String prompt) {
         System.out.println(prompt);

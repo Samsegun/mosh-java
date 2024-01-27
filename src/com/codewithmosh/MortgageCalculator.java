@@ -6,7 +6,6 @@ public class MortgageCalculator {
 
     private int principal;
     private float annualInterestRate;
-
     private byte period;
 
     public MortgageCalculator(int principal, float annualInterestRate, byte period) {
